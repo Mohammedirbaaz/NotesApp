@@ -1,0 +1,127 @@
+*
+{
+    margin:0%;
+    padding:0%;
+    width:100%;
+    height:100vh;
+    background-color: rgb(215, 255, 175);
+}
+
+.bg-card
+{
+    position: relative;
+    margin-left:25%;
+    margin-top: 20vh;
+    width:50%;
+    height:50vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bg-card-head
+{
+    position: relative;
+    height: 15%;
+    width: 75%;
+    margin-left: 12%;
+    /* margin-top: -5%; */
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    /* background-color: rgb(228, 228, 228); */
+}
+.bg-card-head-text
+{
+    position: relative;
+    height: 5vh;
+    width: 50%;
+    margin-left: 25%;
+    /* margin-top: 10%; */
+    padding-top:3%;
+    text-align: center;
+    /* background-color: aqua; */
+    /* background-color: rgb(228, 228, 228); */
+}
+.bg-card-body
+{
+    position: relative;
+    height: 85%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.bg-card-input
+{
+    position: relative;
+    width: 50%;
+    height: 5vh;
+    margin-left: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    outline: none;
+    border: none;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+}
+.submitbtn
+{
+    width: 25%;
+    margin-left: 37%;
+    border-radius: 5px;
+    background-color: rgb(195, 227, 227);
+    padding: 1%;
+}
+
+.viewbtn{
+    position: relative;
+    width: 10%;
+    height: 5vh;
+    background-color: rgb(85, 217, 240);
+    top:10vh;
+    left:45%;
+    outline:none;
+    border:none;
+    color:white;
+    transition: all 2s;
+    perspective: 1000px; 
+}
+
+.viewbtn:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transform: rotateX(-180deg);
+}
+
+.nav-view{
+    position: relative;
+    float:right;
+    width: 20%;
+    height: 10%;
+    padding: 1%;
+    /* background-color: rgb(127, 96, 96); */
+}
+.btns{
+    position: relative;
+    width: 40%;
+    height: auto;
+    padding: 3%;
+    margin: 5% 5% 5% 5%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 144, 144);
+    color:white;
+}
+.btns:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.image
+{
+    position: relative;
+    background: none;
+    
+}
